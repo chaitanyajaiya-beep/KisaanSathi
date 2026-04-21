@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Report</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🌾 KisaanSaathi</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="land.html" class="active">Land Report</a>
+        <a href="crop.html">Crop Advisory</a>
+        <a href="weather.html">Weather</a>
+    </nav>
+</header>
+
+<section class="card">
+    <h2>📄 Upload Land Report</h2>
+    <input type="file" id="report">
+    <button onclick="analyzeReport()">Analyze</button>
+    <p id="reportResult"></p>
+</section>
+
+<footer>
+    <p>© 2026 KisaanSaathi</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

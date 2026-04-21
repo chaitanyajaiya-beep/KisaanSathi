@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Advisory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🌾 KisaanSaathi</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="land.html">Land Report</a>
+        <a href="crop.html" class="active">Crop Advisory</a>
+        <a href="weather.html">Weather</a>
+    </nav>
+</header>
+
+<section class="card">
+    <h2>🌱 Crop Advisory</h2>
+
+    <div class="form-group">
+        <label>Soil Type</label>
+        <select id="soil">
+            <option>Clay</option>
+            <option>Sandy</option>
+            <option>Loamy</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Season</label>
+        <select id="season">
+            <option>Kharif</option>
+            <option>Rabi</option>
+            <option>Zaid</option>
+        </select>
+    </div>
+
+    <button onclick="suggestCrop()">Suggest Crop</button>
+    <p id="result"></p>
+</section>
+
+<footer>
+    <p>© 2026 KisaanSaathi</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
